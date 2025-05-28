@@ -1,0 +1,92 @@
+#main {
+  width: 400px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+}
+#main2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+form {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#deletediv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  background-color: rgb(63, 66, 65);
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(241, 246, 250);
+  font-size: 2.5vh;
+  margin-bottom: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+body {
+  padding: 0%;
+  margin: 0;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#addtodo {
+  background-color: #f50f0ff2;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+#form {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #4a44448c;
+  color: black;
+  border: none;
+}
+
+#deletebtn {
+  background-color: #f50f0ff2;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+#donebtn {
+  background-color: #f50f0ff2;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
